@@ -28,8 +28,8 @@ get_header();
         <dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-2">
           <div class="flex flex-col border-b border-gray-100 p-6 sm:border-0 sm:border-r">
             <div class="flex items-center justify-between">
-              <h3 class="text-xl leading-6 font-medium text-gray-900 mb-8">
-                Donate by mobile
+              <h3 class="text-xl leading-6 font-medium text-gray-900 mb-8 flex items-center">
+                Donate by mobile <span class="bg-primary-50 text-sm px-2 py-2 ml-4 text-primary-900 rounded-md">Coming soon</span>
               </h3>
               <!--<div class="flex items-center">
                 <svg class="w-16 mr-4 text-gray-400" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 355 140">
@@ -66,15 +66,15 @@ get_header();
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary hover:bg-primary-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                <button disabled type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-500 bg-gray-300 cursor-auto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                   Donate by phone
                 </button>
               </div>
             </form>
           </div>
           <div class="flex flex-col border-t border-b border-gray-100 p-6 sm:border-0">
-            <h3 class="text-xl leading-6 font-medium text-gray-900 mb-8">
-              Donate by banklink
+            <h3 class="text-xl leading-6 font-medium text-gray-900 mb-8 flex items-center">
+              Donate by banklink <span class="bg-primary-50 text-sm px-2 py-2 ml-4 text-primary-900 rounded-md">Coming soon</span>
             </h3>
 
             <form action="#" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
@@ -96,7 +96,7 @@ get_header();
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary hover:bg-primary-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                <button disabled type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md cursor-auto shadow-sm text-base font-medium text-gray-500 bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                   Donate by banklink
                 </button>
               </div>

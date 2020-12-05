@@ -40,6 +40,9 @@
       <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
         <img class="h-16" src="<?php echo get_template_directory_uri(); ?>/dist/static/sotsmin.svg" alt="Sotsiaalministeerium">
       </div>
+      <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+        <img class="h-12" src="<?php echo get_template_directory_uri(); ?>/dist/static/tartu.svg" alt="Tartu">
+      </div>
     </div>
   </div>
 </div>

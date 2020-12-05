@@ -42,7 +42,7 @@ get_header();
               </div>
               <div class="text-lg leading-6 font-medium space-y-1">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-primary">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
@@ -75,7 +75,7 @@ get_header();
               </div>
               <div class="text-lg leading-6 font-medium space-y-1">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-primary">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
@@ -108,7 +108,7 @@ get_header();
               </div>
               <div class="text-lg leading-6 font-medium space-y-1">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-primary">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
@@ -141,7 +141,7 @@ get_header();
               </div>
               <div class="text-lg leading-6 font-medium space-y-1">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-primary">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
@@ -174,7 +174,7 @@ get_header();
               </div>
               <div class="text-lg leading-6 font-medium space-y-1">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-primary">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
@@ -207,7 +207,7 @@ get_header();
               </div>
               <div class="text-lg leading-6 font-medium space-y-1">
                 <h3>Emma Dorsey</h3>
-                <p class="text-indigo-600">Senior Front-end Developer</p>
+                <p class="text-primary">Senior Front-end Developer</p>
               </div>
               <div class="text-lg">
                 <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
