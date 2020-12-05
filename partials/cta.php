@@ -8,7 +8,7 @@
 ?>
 
 <div class="bg-white">
-  <div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+  <div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:pt-16 lg:px-8 lg:pb-32">
     <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       <span class="block">Want to help?</span>
     </h2>
@@ -24,5 +24,6 @@
         </a>
       </div>
     </div>
+    <p class="text-base font-medium text-gray-600 mt-8">If you wish to help in any other way, please <a href="/contact" class="text-base font-medium text-gray-600 underline hover:text-primary-900">contact us</a></p>
   </div>
 </div>
