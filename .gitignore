@@ -103,6 +103,4 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/node,macos,windows
 
 # Repo Specific
-dist
-vendor
 package-lock.json
