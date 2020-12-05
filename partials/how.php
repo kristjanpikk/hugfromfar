@@ -31,7 +31,7 @@
           We collect tablets, e-readers and headphones
         </h3>
         <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.
+          The equipment donated by you must be in working order, preferably empty of personal information and not older than 2 years.
         </p>
       </div>
 
@@ -39,7 +39,7 @@
         <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
           <defs>
             <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="#BFDBFE" />
             </pattern>
           </defs>
           <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
@@ -64,7 +64,7 @@
             We upload communication apps, audio- and e-book options
           </h3>
           <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus eligendi delectus, cum deleniti sunt in labore nihil quod quibusdam expedita nemo.
+            Devices will be swiped clean by our IT partner Foxway and they will upgrade the devices with communication apps (Skype, Messenger, WhatsApp, Zoom) and apps for e-books and audiobooks.
           </p>
         </div>
 
@@ -72,7 +72,7 @@
           <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404" aria-hidden="true">
             <defs>
               <pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="#BFDBFE" />
               </pattern>
             </defs>
             <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
@@ -88,7 +88,7 @@
           We add customer support and user training
         </h3>
         <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.
+          Our partners will organize online training courses for the staff of nursing homes, so the elderly would have tech support near them at all times.
         </p>
       </div>
 
@@ -96,7 +96,7 @@
         <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
           <defs>
             <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="#BFDBFE" />
             </pattern>
           </defs>
           <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
@@ -112,7 +112,7 @@
             We donate devices to retirement homes
           </h3>
           <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus eligendi delectus, cum deleniti sunt in labore nihil quod quibusdam expedita nemo.
+            The collected devices will be handed out to elderly homes (1 per 10 residents) via our trusted partners at Omniva and Bentte.
           </p>
         </div>
 
@@ -120,7 +120,7 @@
           <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="320" fill="none" viewBox="0 0 784 404" aria-hidden="true">
             <defs>
               <pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="#BFDBFE" />
               </pattern>
             </defs>
             <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
@@ -145,7 +145,7 @@
           We let elderly meet their families and friends again through video calls
         </h3>
         <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.
+          We will create a modern and smart communication possibility for the elderly to reduce loneliness and isolation and help people meet through video calls.
         </p>
       </div>
 
@@ -153,7 +153,7 @@
         <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
           <defs>
             <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="#BFDBFE" />
             </pattern>
           </defs>
           <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />

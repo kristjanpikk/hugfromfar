@@ -17,9 +17,7 @@
               <span class="block xl:inline">We connect elderly with their families</span>
               <span class="block text-primary xl:inline">through video calls.</span>
             </h1>
-            <p class="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-12 md:text-xl lg:mx-0">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
-            </p>
+            <p class="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-12 md:text-xl lg:mx-0">To cut distances shorter and bring loved ones closer. So that no family gathering would go without grandparents.</p>
             <div class="mt-5 sm:mt-12 sm:flex sm:justify-center lg:justify-start">
               <div class="rounded-md shadow">
                 <a href="/donate-a-device" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary-900 md:py-4 md:text-lg md:px-10">

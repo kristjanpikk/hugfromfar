@@ -14,7 +14,7 @@
         How are we doing?
       </h2>
       <p class="mt-4 text-xl text-gray-600 sm:mt-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
+        There are approx 160 nursing homes for elderly people in Estonia with approx 9000 clients living there. They are all waiting for you to make a move!
       </p>
     </div>
   </div>
