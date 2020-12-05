@@ -88,7 +88,10 @@
           We add customer support and user training
         </h3>
         <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-          Our partners will organize online training courses for the staff of nursing homes, so the elderly would have personal tech support near them at all times.
+          Our partners will organize online training courses for the staff of nursing homes. We’ll train a few people from each home and give them toolpack to teach other staff and support the elderly.
+        </p>
+        <p class="mt-3 lg:mt-8 text-lg text-gray-600">
+          We’ll also have online IT-assistance by our partner so retirement homes would not have to worry about tecnical issues.
         </p>
       </div>
 

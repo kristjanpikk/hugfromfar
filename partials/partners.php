@@ -8,7 +8,7 @@
 ?>
 
 <div class="bg-white">
-  <p class="text-center mt-2 text-lg leading-8 tracking-tight text-gray-600">
+  <p class="text-center mt-2 text-base text-base font-medium text-gray-600">
     Helping on our journey
   </p>
   <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
@@ -18,9 +18,6 @@
       </a>
       <a href="https://www.bentte.com/" rel="nofollow" target="_blank" class="col-span-2 flex justify-center md:col-span-2 lg:col-span-1">
         <img class="h-12" src="<?php echo get_template_directory_uri(); ?>/dist/static/bentte.svg" alt="Bentte">
-      </a>
-      <a href="https://cleveron.com/" rel="nofollow" target="_blank" class="col-span-2 flex justify-center md:col-span-2 lg:col-span-1">
-        <img class="h-12" src="<?php echo get_template_directory_uri(); ?>/dist/static/cleveron.svg" alt="Cleveron">
       </a>
       <a href="http://www.egga.ee/" rel="nofollow" target="_blank" class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
         <img class="h-12" src="<?php echo get_template_directory_uri(); ?>/dist/static/egga.jpg" alt="EGGA">

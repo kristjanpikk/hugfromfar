@@ -18,7 +18,7 @@ get_header();
     <div class="text-center">
       <p class="text-base font-semibold text-primary tracking-wide uppercase"><?php _e( 'Help our mission', 'hugfromfar' ); ?></p>
       <h2 class="mt-4 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl"><?php the_title(); ?></h2>
-      <p class="max-w-xl mt-12 mx-auto text-xl text-gray-600">The money you donate will go to keeping us going, the devices fixed and people connected.</p>
+      <p class="max-w-xl mt-12 mx-auto text-xl text-gray-600">The money you donate will be used to purchase tablet holders, fix more devices and for other fixed costs to keep the people connected.</p>
     </div>
   </div>
 

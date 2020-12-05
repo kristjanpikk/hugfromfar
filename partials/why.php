@@ -91,11 +91,11 @@
       <div class="col-span-3 font-medium text-gray-800">The pilot will run in 3 retirement homes in different parts of Estonia to test our idea. Pilot results will become available Feb 2021.</div>
         <div>
           <a href="http://www.kaarepere.ee/" target="_blank" rel="nofollow" class="block font-medium mb-4 hover:underline">Kaarepere Pansionaat, Jõgeva county</a>
-          Current situation: 35 clients, 1 tablet - (not in use), weak wifi signal. None of the clients have smartphones.
+          Current situation: 35 clients, 1 tablet (not in use), weak wifi signal. None of the clients have smartphones.
         </div>
         <div>
           <a href="https://www.kilingivilla.ee/" target="_blank" rel="nofollow" class="block font-medium mb-4 hover:underline">Kilingi Villa, Pärnu county</a>
-          Current situation: 40 clients, 1 Ipad2 that does not work, weak wifi signal. None of the clients have smartphones.
+          Current situation: 40 clients, 1 Ipad 2 that does not work, weak wifi signal. None of the clients have smartphones.
         </div>
         <div>
           <a href="https://sudamekodud.ee/karu-sudamekodu/" target="_blank" rel="nofollow" class="block font-medium mb-4 hover:underline">Käru Südamekodu, Järva county</a>
