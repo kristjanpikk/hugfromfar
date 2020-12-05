@@ -16,8 +16,8 @@ get_header();
 <div class="bg-blue-50 ">
   <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-base font-semibold text-primary tracking-wide uppercase"><?php _e( 'Help our mission', 'hugfromfar' ); ?></h2>
-      <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl"><?php the_title(); ?></p>
+      <p class="text-base font-semibold text-primary tracking-wide uppercase"><?php _e( 'Help our mission', 'hugfromfar' ); ?></p>
+      <h2 class="mt-4 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl"><?php the_title(); ?></h2>
       <p class="max-w-xl mt-12 mx-auto text-xl text-gray-600">Start building for free, then add a site plan to go live. Account plans unlock additional features.</p>
     </div>
   </div>
@@ -66,7 +66,7 @@ get_header();
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <button disabled type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-500 bg-gray-300 cursor-auto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                <button disabled type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-gray-500 bg-gray-200 cursor-auto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                   Donate by phone
                 </button>
               </div>
@@ -96,7 +96,7 @@ get_header();
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <button disabled type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md cursor-auto shadow-sm text-base font-medium text-gray-500 bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                <button disabled type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md cursor-auto shadow-sm text-base font-medium text-gray-500 bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                   Donate by banklink
                 </button>
               </div>

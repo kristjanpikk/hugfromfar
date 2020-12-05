@@ -64,7 +64,7 @@
             We upload communication apps, audio- and e-book options
           </h3>
           <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-            Devices will be swiped clean by our IT partner Foxway and they will upgrade the devices with communication apps (Skype, Messenger, WhatsApp, Zoom) and apps for e-books and audiobooks.
+            Devices will be swiped clean by our IT partner Foxway and they will add necessary communication apps (Skype, Messenger, WhatsApp, Zoom) and apps for e-books and audiobooks.
           </p>
         </div>
 
@@ -88,7 +88,7 @@
           We add customer support and user training
         </h3>
         <p class="mt-3 lg:mt-8 text-lg text-gray-600">
-          Our partners will organize online training courses for the staff of nursing homes, so the elderly would have tech support near them at all times.
+          Our partners will organize online training courses for the staff of nursing homes, so the elderly would have personal tech support near them at all times.
         </p>
       </div>
 
