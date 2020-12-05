@@ -114,7 +114,7 @@
           </defs>
           <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
         </svg>
-        <img class="relative ml-auto mr-0" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="">
+        <img class="relative ml-auto mr-0 shadow-lg rounded-lg" width="490" src="<?php echo get_template_directory_uri(); ?>/dist/static/collect.jpg" alt="">
       </div>
     </div>
 
@@ -147,7 +147,7 @@
             </defs>
             <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
           </svg>
-          <img class="relative mr-auto ml-0" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="">
+          <img class="relative mr-auto ml-0 shadow-lg rounded-lg" width="490" src="<?php echo get_template_directory_uri(); ?>/dist/static/upload.jpg" alt="">
         </div>
       </div>
     </div>
@@ -180,7 +180,7 @@
           </defs>
           <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
         </svg>
-        <img class="relative ml-auto mr-0" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="">
+        <img class="relative ml-auto mr-0 shadow-lg rounded-lg" width="490" src="<?php echo get_template_directory_uri(); ?>/dist/static/support.jpg" alt="">
       </div>
     </div>
 
@@ -213,7 +213,7 @@
             </defs>
             <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
           </svg>
-          <img class="relative mr-auto ml-0" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="">
+          <img class="relative mr-auto ml-0 rounded-lg shadow-lg" width="490" src="<?php echo get_template_directory_uri(); ?>/dist/static/donate.jpg" alt="">
         </div>
       </div>
     </div>
@@ -246,7 +246,7 @@
           </defs>
           <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
         </svg>
-        <img class="relative ml-auto mr-0" width="490" src="https://tailwindui.com/img/features/feature-example-2.png" alt="">
+        <img class="relative ml-auto mr-0 shadow-lg rounded-lg" width="490" src="<?php echo get_template_directory_uri(); ?>/dist/static/video.jpg" alt="">
       </div>
     </div>
   </div>
