@@ -10,237 +10,136 @@
 get_header();
 ?>
 
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ]
-  }
-  ```
--->
-<div class="bg-white">
-  <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-    <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-      <div class="space-y-5 sm:space-y-4">
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Our Team</h2>
-        <p class="text-xl text-gray-500">Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse. Volutpat eu faucibus vivamus eget bibendum cras.</p>
-      </div>
-      <div class="lg:col-span-2">
-        <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
-          <li>
-            <div class="space-y-4">
-              <div class="aspect-w-3 aspect-h-2">
-                <img class="object-cover shadow-lg rounded-lg" src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
-              </div>
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Emma Dorsey</h3>
-                <p class="text-primary">Senior Front-end Developer</p>
-              </div>
-              <div class="text-lg">
-                <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-              </div>
-
-              <ul class="flex space-x-5">
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">Twitter</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">LinkedIn</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div class="space-y-4">
-              <div class="aspect-w-3 aspect-h-2">
-                <img class="object-cover shadow-lg rounded-lg" src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
-              </div>
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Emma Dorsey</h3>
-                <p class="text-primary">Senior Front-end Developer</p>
-              </div>
-              <div class="text-lg">
-                <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-              </div>
-
-              <ul class="flex space-x-5">
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">Twitter</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">LinkedIn</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div class="space-y-4">
-              <div class="aspect-w-3 aspect-h-2">
-                <img class="object-cover shadow-lg rounded-lg" src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
-              </div>
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Emma Dorsey</h3>
-                <p class="text-primary">Senior Front-end Developer</p>
-              </div>
-              <div class="text-lg">
-                <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-              </div>
-
-              <ul class="flex space-x-5">
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">Twitter</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">LinkedIn</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div class="space-y-4">
-              <div class="aspect-w-3 aspect-h-2">
-                <img class="object-cover shadow-lg rounded-lg" src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
-              </div>
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Emma Dorsey</h3>
-                <p class="text-primary">Senior Front-end Developer</p>
-              </div>
-              <div class="text-lg">
-                <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-              </div>
-
-              <ul class="flex space-x-5">
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">Twitter</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">LinkedIn</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div class="space-y-4">
-              <div class="aspect-w-3 aspect-h-2">
-                <img class="object-cover shadow-lg rounded-lg" src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
-              </div>
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Emma Dorsey</h3>
-                <p class="text-primary">Senior Front-end Developer</p>
-              </div>
-              <div class="text-lg">
-                <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-              </div>
-
-              <ul class="flex space-x-5">
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">Twitter</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">LinkedIn</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div class="space-y-4">
-              <div class="aspect-w-3 aspect-h-2">
-                <img class="object-cover shadow-lg rounded-lg" src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
-              </div>
-              <div class="text-lg leading-6 font-medium space-y-1">
-                <h3>Emma Dorsey</h3>
-                <p class="text-primary">Senior Front-end Developer</p>
-              </div>
-              <div class="text-lg">
-                <p class="text-gray-500">Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.</p>
-              </div>
-
-              <ul class="flex space-x-5">
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">Twitter</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <span class="sr-only">LinkedIn</span>
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-
-          <!-- More people... -->
-        </ul>
-      </div>
+<div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+  <div class="space-y-12">
+    <div class="space-y-5 sm:space-y-4 text-center">
+      <h2 class="mt-4 mb-16 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl"><?php the_title(); ?></h2>
+        <p class="leading-7 text-sm text-gray-500 sm:max-w-3xl mx-auto">
+        <b>Nov 9th 2020</b> - Evelin calls first friend to tell about the charity project she has in mind.
+        <b>Nov 2020</b> - Evelin keeps making phone calls, calling friends and friends of friends etc.
+        <b>Nov 30th 2020</b> - Evelin joins Facebook for the first time in her life and sees final call to Garage48 For the future hackathon. Evelin signs up.
+        <b>Dec 1st</b> - Evelin recruits PR specialists Kadri and Heidi as first team members.
+        <b>Dec 3rd</b> - and hour before deadline for submitting teams Evelin recruits marketing specialist Liina and graphic designer Lauri.
+        <b>Dec 3rd</b> - during the first checkpoint Evelin sees a guy with video equipment walk into the co-working space Sofa Office and an hour later recruits Jan.
+        <b>Dec 5th</b> - Evelin is quite desperate, because IT-guys haven’t delivered, but then Kristjan walks into office and happens to be a web wizard and just the right person to complete our perfect team.
+      </p>
     </div>
+    <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+      <li>
+          <div class="space-y-4">
+            <div class="aspect-w-3 aspect-h-2">
+              <img class="object-cover shadow-lg rounded-lg" src="<?php echo get_template_directory_uri(); ?>/dist/static/evelin.jpg" alt="">
+            </div>
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h3>Evelin Kullman</h3>
+              <p class="text-primary">Project manager</p>
+            </div>
+            <ul class="text-lg text-gray-500">
+              <li class="text-sm mb-4">Project management experience since 1999 at the level of NGO (Youth Media Club), local government and the Ministry of Education and Research</li>
+              <li class="text-sm mb-4">Work experience: adult education specialist in the Ministry of Education and Research and child protection specialist in Jõgeva Parish Government</li>
+              <li class="text-sm mb-4">BA in social work, Tallinn University</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-4">
+            <div class="aspect-w-3 aspect-h-2">
+              <img class="object-cover shadow-lg rounded-lg" src="<?php echo get_template_directory_uri(); ?>/dist/static/kadri.jpg" alt="">
+            </div>
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h3>Kadri Peetersoo</h3>
+              <p class="text-primary">PR and communication</p>
+            </div>
+            <ul class="text-lg text-gray-500">
+              <li class="text-sm mb-4">Manages corporate and marketing communication projects</li>
+              <li class="text-sm mb-4">Work experience in media since 2005 as a journalist (Järva Teataja) and since 2011 as PR expert (Eesti Post Ltd, Ministry of Economics and Communications; Enterprise Estonia)</li>
+              <li class="text-sm mb-4">BA in journalism, University of Tartu</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-4">
+            <div class="aspect-w-3 aspect-h-2">
+              <img class="object-cover shadow-lg rounded-lg" src="<?php echo get_template_directory_uri(); ?>/dist/static/heidi.jpg" alt="">
+            </div>
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h3>Heidi Ojamaa</h3>
+              <p class="text-primary">PR and communication</p>
+            </div>
+            <ul class="text-lg text-gray-500">
+              <li class="text-sm mb-4">Manages corporate and marketing communication projects</li>
+              <li class="text-sm mb-4">Work experience in media since 2008 as a reporter, editor and analyst, advisor to the Minister of Regional Development, Minister of Education and Research, and Ministers of Entrepreneurship and Information technology</li>
+              <li class="text-sm mb-4">Studied Marketing at the Estonian Business School</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-4">
+            <div class="aspect-w-3 aspect-h-2">
+              <img class="object-cover shadow-lg rounded-lg" src="<?php echo get_template_directory_uri(); ?>/dist/static/liina.jpg" alt="">
+            </div>
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h3>Liina Pulges</h3>
+              <p class="text-primary">Marketing</p>
+            </div>
+            <ul class="text-lg text-gray-500">
+              <li class="text-sm mb-4">Has been working in PR and marketing since 2003 (Head of Public Relations of the University of Tartu, Head of PR and Marketing in AHHAA Science Centre)</li>
+              <li class="text-sm mb-4">Owner of PR and marketing company Unistuste Agentuur since 2011</li>
+              <li class="text-sm mb-4">MA degree in journalism, University of Tartu</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-4">
+            <div class="aspect-w-3 aspect-h-2">
+              <img class="object-cover shadow-lg rounded-lg" src="<?php echo get_template_directory_uri(); ?>/dist/static/lauri.jpg" alt="">
+            </div>
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h3>Lauri Järvlepp</h3>
+              <p class="text-primary">Graphic designer</p>
+            </div>
+            <ul class="text-lg text-gray-500">
+              <li class="text-sm mb-4">Freelance graphic designer since 2004 </li>
+              <li class="text-sm mb-4">Since 2011 owner and print/digital media designer at graphic design & animation studio Bassein</li>
+              <li class="text-sm mb-4">Studied media art at Tartu Art College</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-4">
+            <div class="aspect-w-3 aspect-h-2">
+              <img class="object-cover shadow-lg rounded-lg" src="<?php echo get_template_directory_uri(); ?>/dist/static/jan.jpg" alt="">
+            </div>
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h3>Jan Henrik Pärnik</h3>
+              <p class="text-primary">Videographer</p>
+            </div>
+            <ul class="text-lg text-gray-500">
+              <li class="text-sm mb-4">Freelance photographer and videographer </li>
+              <li class="text-sm mb-4">Has studied Media and Advertisement Design</li>
+              <li class="text-sm mb-4">BA degree of Applied Science, Pallas University of Applied Sciences</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="space-y-4">
+            <div class="aspect-w-3 aspect-h-2">
+              <img class="object-cover shadow-lg rounded-lg" src="<?php echo get_template_directory_uri(); ?>/dist/static/kristjan.jpg" alt="">
+            </div>
+            <div class="text-lg leading-6 font-medium space-y-1">
+              <h3>Kristjan Pikk</h3>
+              <p class="text-primary">Digital designer</p>
+            </div>
+            <ul class="text-lg text-gray-500">
+              <li class="text-sm mb-4">Hack The Crisis hackathon winner from Share Force One</li>
+              <li class="text-sm mb-4">Experienced UI/UX designer</li>
+              <li class="text-sm mb-4">Finishing BA degree in Marketing at Estonian Entrepreneurship University of Applied Sciences</li>
+            </ul>
+          </div>
+        </li>
+    </ul>
   </div>
 </div>
-
 
 <?php
 get_footer();

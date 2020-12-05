@@ -8,7 +8,7 @@
 ?>
 
 <div class="bg-white">
-  <p class="lg:text-center mt-2 text-lg leading-8 tracking-tight text-gray-600">
+  <p class="text-center mt-2 text-lg leading-8 tracking-tight text-gray-600">
     Helping on our journey
   </p>
   <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
