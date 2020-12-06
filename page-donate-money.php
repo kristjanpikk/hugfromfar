@@ -36,11 +36,11 @@ get_header();
           <div class="prose">
             <b>SA Hug From Far</b>
             <ul>
-              <li>Swedbank: EE212200221059073061</li>
-              <li>SEB pank: EE211010220228917224</li>
-              <li>LHV pank: EE137700771001442514</li>
-              <li>Nordea pank: EE591700017003638161</li>
-              <li>Coop Pank: EE704204278609604509</li>
+              <li>Swedbank: EE222200222222000000</li>
+              <li>SEB pank: EE222200222222000000</li>
+              <li>LHV pank: EE222200222222000000</li>
+              <li>Nordea pank: EE222200222222000000</li>
+              <li>Coop Pank: EE222200222222000000</li>
             </ul>
           </div>
         </div>
